@@ -1,0 +1,212 @@
+.row {
+		margin: 0px;
+}
+#header_filter_div 
+.btn.btn-color, 
+input.btn-color[type="submit"], 
+input.btn-color[type="button"], 
+.btn-color.um-button, 
+input.btn-color.um-button[type="submit"], 
+.woocommerce #respond input#submit, 
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button, 
+.btn.btn-color:focus, 
+input.btn-color[type="submit"]:focus,
+input.btn-color[type="button"]:focus, 
+.btn-color.um-button:focus, 
+.woocommerce #respond input#submit:focus, 
+.woocommerce a.button:focus, 
+.woocommerce button.button:focus, 
+.woocommerce input.button:focus, 
+button[type="submit"], 
+button[type="submit"]:focus, 
+input[type="submit"], 
+input[type="submit"]:focus {
+	padding: 10px !important;
+	background-color: #F58B43;
+	border: 0px !important;
+}
+#header_filter_div
+.btn.btn-color:hover, 
+input.btn-color[type="submit"]:hover, 
+input.btn-color[type="button"]:hover,
+button[type="submit"]:hover, 
+input[type="submit"]:hover {
+	padding: 10px !important;
+    background-color: #F6AF80;
+	border: 0px !important;
+}
+#header_filter_div h5,h6,input,button {
+	color: #b69b5e;
+	font-family: Verdana, Arial, Helvetica, 
+ 				"Lucida Console", sans-serif; 
+    font-size: 15px; 
+
+}
+#header_filter_div h5,h6 {
+    font-weight: bold;
+
+}
+.dropdown {
+	height: 45px !important;
+}button {
+	height: 45px !important;
+}
+#header_filter_div input,button{
+	border: 1px solid #ddd !important;
+	border-radius: 5px;
+}
+
+#header_filter_div 
+.ui-widget.ui-widget-content {
+	border: 1px solid #c5c5c5;
+	position: absolute;
+	width: 90%;
+	margin-top: 30px;
+	height: 10px;
+}
+#header_filter_div 
+.ui-state-default, 
+.ui-widget-content 
+.ui-state-default, 
+.ui-widget-header 
+.ui-state-default, 
+.ui-button, html 
+.ui-button.ui-state-disabled:hover, html 
+.ui-button.ui-state-disabled:active {
+    border: 1px solid #c5c5c5;
+    background: #fff;
+    font-weight: normal;
+    color: #454545;
+    border-radius: 50%;
+}
+#header_filter_div 
+.ui-state-active, 
+.ui-widget-content 
+.ui-state-active, 
+.ui-widget-header 
+.ui-state-active, 
+a.ui-button:active, 
+.ui-button:active, 
+.ui-button.ui-state-active:hover {
+    border: 1px solid #2F9074;
+    background: #44BC99 !important;
+    font-weight: normal;
+    color: #ffffff;
+}
+#header_filter_div 
+.ui-widget-header {
+    border: 1px solid #44BC99 !important;
+    background: #44BC99 !important;
+}
+#header_filter_div 
+.ui-widget-content {
+    border: 1px solid #c5c5c5 !important;
+    background: #ddd !important;
+    color: #333333;
+}
+.number {
+	text-align: right;
+}
+
+#chart_div > svg rect{
+    background-color: #f9f9e2 !important;
+}
+
+.woocommerce-MyAccount-navigation {
+  float: right;
+  font-family: "icomoon", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 2px;
+  padding: 15px 0;
+  border: none;
+  box-shadow: none;
+  background-color: #d1d1d1;
+  width: 100% !important;
+
+}
+  .woocommerce-MyAccount-navigation > ul {
+    -webkit-transition: .2s;
+            transition: .2s; 
+    margin-top: -15px !important; }
+ 
+  .woocommerce-MyAccount-navigation > ul > li {
+    float: left;
+    position: relative;}
+
+  .woocommerce-MyAccount-navigation a {
+    display: inline-block; 
+    color: #3DA486 }
+    .woocommerce-MyAccount-navigation a:hover {
+      color: #EF6464; }
+  .woocommerce-MyAccount-navigation .current-menu-item > a {
+    color: #EF6464; }
+
+.menu-item-has-children > a > i {
+  margin-left: 6px;
+  color: #EF6464; }
+
+.woocommerce-MyAccount-navigation .sub-menu {
+  position: absolute;
+  top: 90%;
+  left: -20%;
+  min-width: 190px;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  background-color: #333;
+  z-index: 100;
+  display: none; }
+  .woocommerce-MyAccount-navigation .sub-menu a {
+    display: inline-block;
+    width: 100%;
+    letter-spacing: 0;
+    padding: 10px 20px;
+    color: #fff; }
+    .main-navigation .sub-menu a:hover {
+      color: #F7C842; }
+  .woocommerce-MyAccount-navigation .sub-menu .current-menu-item > a {
+    color: #F7C842; }
+  .woocommerce-MyAccount-navigation .sub-menu .sub-menu {
+    top: 0;
+    left: 100%; }
+.woocommerce-MyAccount-content {
+    margin-top: 20px;
+}
+
+#post-1129 {
+   background: url(http://localhost/happydeal/bg-login.png) no-repeat;
+    background-size: 100% auto;
+    height: 650px;
+    font-family: "icomoon", sans-serif;
+    color: #fff !important;
+
+}
+#post-1129 .page-content {
+    background-color:rgba(0, 0, 0, 0);
+}
+
+#post-1129 .page-content .breadcrumbs {
+    display: none;
+}
+
+label {
+    color: #fff !important;
+    font-size: 12px !important;
+    font-family: "icomoon", sans-serif;
+} 
+h1,h2,p {
+    font-family: "icomoon", sans-serif;
+}
+footer {
+    font-family: "icomoon", sans-serif !important;
+}
+
+.navigation-wrapper {
+  padding-bottom: 0px !important;
+}
+

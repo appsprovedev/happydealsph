@@ -1,0 +1,2815 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: CouponHut\n"
+"POT-Creation-Date: 2017-04-13 16:27+0300\n"
+"PO-Revision-Date: 2016-08-10 12:11+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:16
+msgid ""
+"Whatever you were looking for was not found, but maybe try looking again or "
+"search using the form below."
+msgstr ""
+
+#: 404.php:34 inc/hooks.php:1267
+msgid "Warning!"
+msgstr ""
+
+#: 404.php:35
+msgid "This warning is visible to logged administrators only."
+msgstr ""
+
+#: 404.php:36
+msgid ""
+"If you are trying to load a single deal page, one of the issues could be "
+"that the Permalinks are not refreshed. In the Admin Dashboard, click on "
+"Settings -> Permalinks and select the \"Post Name\" checkbox."
+msgstr ""
+
+#: 404.php:38
+msgid "Remove this notice."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:386
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:827
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2533
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:387
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:388
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:934
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:1121
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3509
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3509
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:20
+msgid "Recent Comments"
+msgstr ""
+
+#: comments.php:43
+msgid "Older comments"
+msgstr ""
+
+#: comments.php:44
+msgid "Newer comments"
+msgstr ""
+
+#: comments.php:53
+msgid "Comments are closed"
+msgstr ""
+
+#: comments.php:71
+msgid "Name"
+msgstr ""
+
+#: comments.php:77
+msgid "Email"
+msgstr ""
+
+#: comments.php:82
+msgid "Website"
+msgstr ""
+
+#: comments.php:86
+msgid "Comment"
+msgstr ""
+
+#: comments.php:87
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:88
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out &raquo;</a>"
+msgstr ""
+
+#: comments.php:91
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:92
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:93
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:94
+msgid "Post Comment"
+msgstr ""
+
+#: demo-content/demo-1/manifest.php:7
+msgid "1 Click Demo"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/config.php:8
+msgid "Accordion"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/config.php:9
+msgid "Add an Accordion"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/button/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/deal-categories/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-companies/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-deals/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/hero-image/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/image-carousel/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/latest-deals/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/latest-news/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/poster/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/spacer/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/config.php:10
+msgid "Content Elements"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:8
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/config.php:8
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:8
+msgid "Tabs"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:9
+msgid "Add/Edit Tabs"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:10
+msgid "Create your tabs"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:15
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-companies/options.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/hero-image/options.php:27
+#: framework-customizations/extensions/shortcodes/shortcodes/latest-deals/options.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/latest-news/options.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/poster/options.php:8
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:15
+#: inc/widgets/daily-deal/class-widget-daily-deal.php:77
+#: inc/widgets/deal-categories/class-widget-deal-categories.php:90
+#: inc/widgets/deal-companies/class-widget-deal-companies.php:90
+#: inc/widgets/deal-filter/class-widget-deal-filter.php:289
+#: inc/widgets/deal-search/class-widget-deal-search.php:67
+#: inc/widgets/image/class-widget-image.php:59
+#: inc/widgets/mailchimp/class-widget-mailchimp.php:84
+#: inc/widgets/recent-posts/class-widget-recent-posts.php:89
+#: inc/widgets/social/class-widget-social.php:70
+#: inc/widgets/twitter/class-widget-twitter.php:90 template-submit-deal.php:100
+msgid "Title"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:19
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:9
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-companies/options.php:15
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:19
+#: framework-customizations/theme/options/general-settings.php:132
+#: template-submit-deal.php:137
+msgid "Content"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/config.php:8
+msgid "Blockquote"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/config.php:9
+msgid "Add a Blockquote"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:14
+msgid "Cite"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/config.php:8
+msgid "Box Icon"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/config.php:9
+msgid "Add a Box Icon"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:15
+msgid "Icon Box"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:20
+#: inc/includes/acf-fields/acf-fields.php:232
+msgid "Icon"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:24
+msgid "Icon Content"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:29
+msgid "Add"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/config.php:8
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:10
+msgid "Button"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/config.php:9
+msgid "Add a Button"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:7
+msgid "Button Label"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:8
+msgid "This is the text that appears on your button"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:13
+msgid "Button Link"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:14
+msgid "Where should your button link to"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:20
+#: framework-customizations/extensions/shortcodes/shortcodes/poster/options.php:23
+msgid "Open Link in New Window"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:21
+#: framework-customizations/extensions/shortcodes/shortcodes/poster/options.php:24
+msgid "Select here if you want to open the linked page in a new window"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:24
+#: framework-customizations/extensions/shortcodes/shortcodes/deal-categories/options.php:26
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-companies/options.php:43
+#: framework-customizations/extensions/shortcodes/shortcodes/poster/options.php:27
+#: framework-customizations/theme/options/general-settings.php:208
+#: framework-customizations/theme/options/general-settings.php:221
+#: framework-customizations/theme/options/general-settings.php:235
+#: framework-customizations/theme/options/general-settings.php:265
+#: framework-customizations/theme/options/general-settings.php:281
+#: framework-customizations/theme/options/general-settings.php:294
+#: framework-customizations/theme/options/general-settings.php:318
+#: framework-customizations/theme/options/general-settings.php:344
+#: framework-customizations/theme/options/general-settings.php:358
+#: framework-customizations/theme/options/general-settings.php:389
+#: framework-customizations/theme/options/general-settings.php:402
+#: framework-customizations/theme/options/general-settings.php:422
+#: inc/includes/acf-fields/acf-fields.php:360
+msgid "Yes"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:28
+#: framework-customizations/extensions/shortcodes/shortcodes/deal-categories/options.php:22
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-companies/options.php:47
+#: framework-customizations/extensions/shortcodes/shortcodes/poster/options.php:31
+#: framework-customizations/theme/options/general-settings.php:204
+#: framework-customizations/theme/options/general-settings.php:217
+#: framework-customizations/theme/options/general-settings.php:231
+#: framework-customizations/theme/options/general-settings.php:261
+#: framework-customizations/theme/options/general-settings.php:277
+#: framework-customizations/theme/options/general-settings.php:290
+#: framework-customizations/theme/options/general-settings.php:314
+#: framework-customizations/theme/options/general-settings.php:340
+#: framework-customizations/theme/options/general-settings.php:354
+#: framework-customizations/theme/options/general-settings.php:385
+#: framework-customizations/theme/options/general-settings.php:398
+#: framework-customizations/theme/options/general-settings.php:418
+#: inc/includes/acf-fields/acf-fields.php:361
+msgid "No"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:34
+msgid "Color"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:36
+#: inc/hooks.php:331 inc/hooks.php:346
+#: inc/includes/acf-fonticonpicker/fonticonpicker-v5.php:85
+#: inc/includes/option-types/icon-select/class-fw-option-type-icon-select.php:102
+#: inc/widgets/deal-filter/class-widget-deal-filter.php:96
+#: inc/widgets/deal-filter/class-widget-deal-filter.php:142
+#: inc/widgets/deal-filter/class-widget-deal-filter.php:179
+#: partials/content-header-screen.php:43 partials/content-header-screen.php:100
+msgid "None"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:37
+msgid "Default"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:38
+msgid "Success"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:39
+msgid "Info"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:40
+msgid "Danger"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:41
+msgid "Warning"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/deal-categories/config.php:8
+#: inc/widgets/deal-categories/class-widget-deal-categories.php:82
+msgid "Deal Categories"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/deal-categories/config.php:9
+msgid "Add a Deal Categories List"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/deal-categories/options.php:7
+msgid "Hide Categories"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/deal-categories/options.php:14
+msgid "Selected categories will not be displayed in the categories list."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/deal-categories/options.php:19
+msgid "Show Parent Categories Only"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/deal-categories/views/view.php:3
+#: inc/widgets/deal-filter/class-widget-deal-filter.php:92
+msgid "Categories"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-companies/config.php:8
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-companies/options.php:19
+msgid "Featured Companies"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-companies/config.php:9
+msgid "Add a Featured Companies List"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-companies/options.php:27
+msgid "Add Companies that will appear in the list."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-companies/options.php:40
+msgid "Show Image"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-companies/options.php:54
+#: framework-customizations/extensions/shortcodes/shortcodes/poster/options.php:12
+#: inc/includes/acf-fields/acf-fields.php:112
+#: inc/includes/acf-fields/acf-fields.php:521
+#: inc/includes/acf-fields/acf-fields.php:533
+#: inc/includes/acf-fields/acf-fields.php:624
+#: inc/widgets/image/class-widget-image.php:51
+#: inc/widgets/image/class-widget-image.php:69
+msgid "Image"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-companies/options.php:57
+msgid "Upload background image for the title block."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-companies/views/view.php:71
+msgid "All Companies"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-deals/config.php:8
+msgid "Featured Deals"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-deals/config.php:9
+msgid "Add a Featured Deals Carousel"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-deals/options.php:9
+msgid "Featured Posts"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-deals/options.php:17
+msgid "Add Deals that will appear in the carousel."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-deals/views/view.php:8
+#: framework-customizations/extensions/shortcodes/shortcodes/latest-deals/views/view.php:6
+#: inc/widgets/deal-filter/class-widget-deal-filter.php:57
+msgid ""
+"<strong>Note!</strong> Make sure than you have published one (and only one) "
+"page that uses the \"Browse Deals\" Template."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/hero-image/config.php:8
+msgid "Hero Image"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/hero-image/config.php:9
+msgid "Add a Big Hero Image"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/hero-image/options.php:8
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:27
+#: inc/widgets/deal-categories/class-widget-deal-categories.php:104
+#: inc/widgets/deal-companies/class-widget-deal-companies.php:104
+msgid "Background Image"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/hero-image/options.php:14
+msgid "MP4 Video URL"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/hero-image/options.php:18
+msgid "WEBM Video URL"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/hero-image/options.php:19
+msgid "For browsers not supporting MP4 (Not required)"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/hero-image/options.php:23
+msgid "OGG Video URL"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/hero-image/options.php:24
+msgid "Fallback to OGG if there is no MP4 or WEBM"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/hero-image/options.php:33
+msgid "Subtitle"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/hero-image/options.php:39
+msgid "Search Deals Placeholder"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/image-carousel/config.php:8
+#: framework-customizations/extensions/shortcodes/shortcodes/image-carousel/options.php:7
+msgid "Image Carousel"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/image-carousel/config.php:9
+msgid "Add an Image Carousel."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/image-carousel/options.php:11
+msgid "Add Images that will appear in the carousel."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/latest-deals/config.php:8
+msgid "Latest Deals"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/latest-deals/config.php:9
+msgid "Add Latest Deals List"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/latest-deals/options.php:13
+msgid "Number of deals to display"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/latest-deals/options.php:24
+msgid "Number of columns"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/latest-deals/options.php:37
+msgid "Deal types to display"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/latest-deals/options.php:39
+msgid "Both"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/latest-deals/options.php:40
+msgid "Discounts"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/latest-deals/options.php:41
+msgid "Coupons"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/latest-deals/options.php:45
+msgid "All Deals Link Text"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/latest-news/config.php:8
+msgid "Latest News"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/latest-news/config.php:9
+msgid "Add Latest News List"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/latest-news/options.php:13
+msgid "All News Link Text"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/poster/config.php:8
+msgid "Poster"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/poster/config.php:9
+msgid "Add a Poster Block"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/poster/options.php:16
+msgid "Link"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/poster/options.php:17
+msgid "Where should the poster link to"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:7
+msgid "Full Width"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:11
+msgid "Bottom Spacing"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:22
+msgid "Background Color"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:23
+msgid "Please select the background color"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:28
+msgid "Please select the background image"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:34
+msgid "Background Video"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:35
+msgid "Insert Video URL to embed this video"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/spacer/config.php:8
+msgid "Spacer"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/spacer/config.php:9
+msgid "Add a Spacer"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/spacer/options.php:7
+msgid "Height"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/config.php:9
+msgid "Add some Tabs"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:9
+msgid "Add/Edit Tab"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:7
+msgid "General"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:11
+msgid "Logo Name"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:12
+msgid "Write your website logo name"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:17
+msgid "Logo Image"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:18
+#: framework-customizations/theme/options/general-settings.php:141
+msgid "Upload the logo image"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:25
+msgid "Logo Padding"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:26
+msgid ""
+"Positon the logo in the main navigation - TOP(px), RIGHT(px), BOTTOM(px), "
+"LEFT(px)"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:29
+msgid "Footer Image"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:30
+msgid "Upload a footer image"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:34
+msgid "Copyright Text"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:41
+msgid "Styling & Layout"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:47
+msgid "Show Log In Drop Menu in Navigation"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:50
+#: framework-customizations/theme/options/general-settings.php:63
+#: framework-customizations/theme/options/general-settings.php:93
+#: framework-customizations/theme/options/general-settings.php:106
+#: framework-customizations/theme/options/general-settings.php:431
+#: framework-customizations/theme/options/general-settings.php:444
+#: framework-customizations/theme/options/general-settings.php:458
+#: framework-customizations/theme/options/general-settings.php:472
+#: inc/includes/acf-fields/acf-fields.php:284
+#: inc/includes/acf-fields/acf-fields.php:924
+msgid "Hide"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:54
+#: framework-customizations/theme/options/general-settings.php:67
+#: framework-customizations/theme/options/general-settings.php:97
+#: framework-customizations/theme/options/general-settings.php:110
+#: framework-customizations/theme/options/general-settings.php:435
+#: framework-customizations/theme/options/general-settings.php:448
+#: framework-customizations/theme/options/general-settings.php:462
+#: framework-customizations/theme/options/general-settings.php:476
+#: inc/includes/acf-fields/acf-fields.php:283
+#: inc/includes/acf-fields/acf-fields.php:760
+#: inc/includes/acf-fields/acf-fields.php:923
+msgid "Show"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:60
+msgid "Show Cart Icon Drop Menu in Navigation"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:79
+msgid "Show Search Header"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:81
+msgid "Posts"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:82
+msgid "Pages"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:83
+msgid "Archive (Categories, etc.)"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:84
+#: inc/widgets/deal-search/class-widget-deal-search.php:60
+#: partials/content-header-screen.php:175
+msgid "Search"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:90
+msgid "Show Sidebar in Categories and Companies Archive Pages"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:103
+msgid "Show Sidebar in Submit Page"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:116
+msgid "Sidebar Position"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:119
+msgid "Left"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:123
+msgid "Right"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:129
+msgid "Blog Post Content or Excerpt"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:136
+msgid "Excerpt"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:140
+msgid "Header Search Image"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:148
+msgid "Custom CSS"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:149
+msgid "Paste your custom CSS here."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:154
+msgid "Colors"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:160
+msgid "Main Color"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:161
+msgid "Default: #EF6464"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:167
+msgid "Secondary Color"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:168
+msgid "Default: #84CC76"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:173
+msgid "Secondary Color Light"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:174
+msgid "Default: #a5da9b"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:179
+msgid "Fill Color"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:180
+msgid "Default: #F7C842"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:185
+msgid "Deals"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:189
+#: framework-customizations/theme/options/general-settings.php:375
+msgid "Deal Submit"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:193
+msgid "New Deal Email"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:194
+msgid "Enter the email that the new deal confirmation emails will be send"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:201
+msgid "Allow Deal Submit Without Registration"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:214
+msgid "Allow Deal Submit for Registered Users without Company"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:227
+msgid "Show register as a Company field on registration."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:228
+msgid ""
+"Make sure that you have checked \"Enable registration on the \"My Account\" "
+"page\" in WooCOmmerce > Settings > Account."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:241
+msgid "WooCommerce Integration"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:257
+msgid "Enable WooCommerce"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:272
+msgid "Hide Checkout Billing Fields"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:285
+msgid "Auto Complete WooCommerce Orders"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:304
+msgid "AJAX"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:310
+msgid "AJAX Deal Search"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:311
+msgid ""
+"Use AJAX for the main deal search page. NOTE: If your widgets doesn't "
+"update, deactivate and activate the theme again."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:324
+msgid "Geolocation"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:330
+msgid "Google API Key"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:331
+msgid ""
+"You can find more information about acquiring key from <a href=\"https://"
+"developers.google.com/maps/documentation/android-api/signup\">here</a>."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:336
+msgid "Deals Geolocation"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:337
+msgid "Show Country and City search options."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:350
+msgid "Hide Country Search Field"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:351
+msgid "Note: Geolocation must be set to \"Yes\"."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:362
+msgid "Center location field - Latitude"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:367
+msgid "Center location field - Longitude"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:370
+msgid "For example. Melbourne is Lat: -37.77, Lng: 144.96"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:381
+msgid "Show Registered Members Only Deals"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:382
+msgid ""
+"Show \"Registered Members Only\" Deals and prompt user to register on click."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:395
+msgid "Allow members to edit their submitted deals"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:408
+msgid "Deal Presentation"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:414
+msgid "Show Coupons Only As Pop Up."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:415
+msgid ""
+"Coupon deals show only popup and Discount deals redirect when clicked. Do "
+"not show single deal pages. Works only if WooCommerce is disabled."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:428
+msgid "Show Deal Discount Stamp"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:441
+msgid "Show Deal Rating"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:454
+msgid "Show Download Coupon Link"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:455
+msgid ""
+"Show download coupon as image link next to the Print button on a single deal "
+"page."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:468
+msgid "Show Deal Sales and Views"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:469
+msgid ""
+"Shows the deal sales (or times redeemed) and views above the deal content."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:482
+msgid "Deal Browsing"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:493
+msgid "Deals Per Page"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:494
+msgid ""
+"Deals per page when browsing and filtering deals. Select -1 for unlimited."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:499
+msgid "Order Categories By"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:501
+msgid "Category Name"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:502
+msgid "Offers Count"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:513
+msgid "Deals Per Page in Category/Company View"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:514
+msgid "Deals per page when browsing a Category. "
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:519
+msgid "Tabs To Display On Browsing Page"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:520
+msgid "Use Ctrl + Click to select multiple."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:522
+#: framework-customizations/theme/options/general-settings.php:534
+msgid "Most Appreciated"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:523
+#: framework-customizations/theme/options/general-settings.php:535
+msgid "Expiring"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:524
+#: framework-customizations/theme/options/general-settings.php:536
+#: partials/content-sort-deals.php:10
+msgid "Popular"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:525
+#: framework-customizations/theme/options/general-settings.php:537
+#: partials/content-sort-deals.php:11
+msgid "Newest"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:526
+#: framework-customizations/theme/options/general-settings.php:538
+#: partials/content-sort-deals.php:12
+msgid "Most Viewed"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:532
+msgid "Default Sorting Tab On Browsing Page"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:546
+msgid "Typography"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:560
+msgid "Heading Font"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:573
+msgid "Body Font"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:578
+msgid "Text Strings"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:582
+msgid "Show Code Button Text"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:587
+msgid "Buy Now Button Text"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:592
+msgid "Print Deal Button Text"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:597
+msgid "Deals Remaining Text"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:598
+#, php-format
+msgid ""
+"HTML tags allowed. In the place of the number, insert \"%s\" without the "
+"quotes."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:605
+msgid "Connect & Social"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:609
+#: inc/widgets/twitter/class-widget-twitter.php:71
+msgid "Twitter"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:615
+msgid "Consumer Key"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:616
+msgid ""
+"Note: You can find the Consumer Key in the Application -> Keys and Access "
+"Tokens -> Application Settings."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:620
+msgid "Consumer Secret"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:621
+msgid ""
+"Note: You can find the Consumer Secret in the Application -> Keys and Access "
+"Tokens -> Application Settings."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:625
+msgid "Access Token"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:626
+msgid ""
+"Note: You can find the Access Token in the Application -> Keys and Access "
+"Tokens -> Your Access Token."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:630
+msgid "Access Token Secret"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:631
+msgid ""
+"Note: You can find the Access Token Secret in the Application -> Keys and "
+"Access Tokens -> Your Access Token."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:637
+msgid "Mailchimp"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:643
+msgid "API Key"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:644
+msgid "Write your Mailchimp API key."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:649
+msgid "Mailchimp Subscription List ID"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:650
+msgid ""
+"The Mailchimp Subscription List ID that you want the users to be subscribed "
+"to."
+msgstr ""
+
+#: functions.php:25
+msgid "Envato Market"
+msgstr ""
+
+#: inc/helpers.php:277
+msgid "Google URL:"
+msgstr ""
+
+#: inc/helpers.php:278
+msgid "Facebook URL:"
+msgstr ""
+
+#: inc/helpers.php:279
+msgid "Twitter URL:"
+msgstr ""
+
+#: inc/helpers.php:280
+msgid "Vimeo URL:"
+msgstr ""
+
+#: inc/helpers.php:281
+msgid "Linkedin URL:"
+msgstr ""
+
+#: inc/helpers.php:282
+msgid "Instagram URL:"
+msgstr ""
+
+#: inc/helpers.php:575 inc/helpers.php:644
+msgid "&larr; Previous"
+msgstr ""
+
+#: inc/helpers.php:576 inc/helpers.php:645
+msgid "Next &rarr;"
+msgstr ""
+
+#: inc/helpers.php:710 single-deal.php:133
+msgid "[Edit]"
+msgstr ""
+
+#: inc/helpers.php:715
+msgid "Your comment is awaiting moderation"
+msgstr ""
+
+#: inc/helpers.php:749
+#, php-format
+msgid ""
+"Mailchimp API Key and List ID are not set, enter them from %s -> Mailchimp"
+msgstr ""
+
+#: inc/helpers.php:749 inc/helpers.php:752 inc/helpers.php:755
+msgid "Appearance -> Theme Settings"
+msgstr ""
+
+#: inc/helpers.php:752
+#, php-format
+msgid "Mailchimp API Key not found, enter it from %s -> Mailchimp"
+msgstr ""
+
+#: inc/helpers.php:755
+#, php-format
+msgid "Mailchimp List ID not found, enter it from %s -> Mailchimp"
+msgstr ""
+
+#: inc/helpers.php:760
+msgid ""
+"Twitter API Key is not set. Make sure that the Consumer Key & Access Token "
+"are set in Theme Setting->Connect & Social->APIs"
+msgstr ""
+
+#: inc/helpers.php:823
+msgid "Make sure Twitter Consumer Key and Access Token are set."
+msgstr ""
+
+#: inc/helpers.php:882
+msgid "right now"
+msgstr ""
+
+#: inc/helpers.php:884
+msgid " seconds ago"
+msgstr ""
+
+#: inc/helpers.php:886
+msgid "about a minute ago"
+msgstr ""
+
+#: inc/helpers.php:888
+msgid " minutes ago"
+msgstr ""
+
+#: inc/helpers.php:890
+msgid "about an hour ago"
+msgstr ""
+
+#: inc/helpers.php:892
+msgid " hours ago"
+msgstr ""
+
+#: inc/helpers.php:894
+msgid "yesterday"
+msgstr ""
+
+#: inc/helpers.php:896
+msgid " days ago"
+msgstr ""
+
+#: inc/hooks.php:64
+msgid "Sidebar Widget Area"
+msgstr ""
+
+#: inc/hooks.php:66
+msgid "Appears in the sidebar section of the site."
+msgstr ""
+
+#: inc/hooks.php:73
+msgid "Blog Sidebar Widget Area"
+msgstr ""
+
+#: inc/hooks.php:75
+msgid "Appears in the sidebar section of the blog page."
+msgstr ""
+
+#: inc/hooks.php:86
+msgid "Footer Column 1"
+msgstr ""
+
+#: inc/hooks.php:87
+msgid "If this is set, your footer will be 1 column"
+msgstr ""
+
+#: inc/hooks.php:97
+msgid "Footer Column 2"
+msgstr ""
+
+#: inc/hooks.php:98
+msgid "If this and Footer Column 1 are set, your footer will be 2 columns."
+msgstr ""
+
+#: inc/hooks.php:108
+msgid "Footer Column 3"
+msgstr ""
+
+#: inc/hooks.php:109
+msgid ""
+"If this Footer Column 1 and Footer Column 2 are set, your footer will be 3 "
+"columns."
+msgstr ""
+
+#: inc/hooks.php:119
+msgid "Footer Column 4"
+msgstr ""
+
+#: inc/hooks.php:120
+msgid ""
+"If this Footer Column 1, Footer Column 2 and Footer Column 3 are set, your "
+"footer will be 4 columns."
+msgstr ""
+
+#: inc/hooks.php:347
+msgid "Please select a country"
+msgstr ""
+
+#: inc/hooks.php:809
+msgid "Mailchimp API Key or List ID are not set."
+msgstr ""
+
+#: inc/hooks.php:811 inc/hooks.php:835 inc/hooks.php:837
+msgid "Something went wrong. We couldn't sign you up."
+msgstr ""
+
+#: inc/hooks.php:831
+msgid "Oops! This email address is already subscribed!"
+msgstr ""
+
+#: inc/hooks.php:833
+msgid "Email address does not exist"
+msgstr ""
+
+#: inc/hooks.php:835
+msgid "List does not exist, please choose a valid list."
+msgstr ""
+
+#: inc/hooks.php:842
+msgid "Success! You have signed up."
+msgstr ""
+
+#: inc/hooks.php:1040
+msgid "New deal has been submited. Here are the details:"
+msgstr ""
+
+#: inc/hooks.php:1041
+msgid "Deal Name:"
+msgstr ""
+
+#: inc/hooks.php:1042
+msgid "Deal Type:"
+msgstr ""
+
+#: inc/hooks.php:1043
+msgid "Deal Summary:"
+msgstr ""
+
+#: inc/hooks.php:1044
+msgid "Coupon Code:"
+msgstr ""
+
+#: inc/hooks.php:1045
+msgid "Discount:"
+msgstr ""
+
+#: inc/hooks.php:1046
+msgid "Content:"
+msgstr ""
+
+#: inc/hooks.php:1047
+msgid "Deal URL:"
+msgstr ""
+
+#: inc/hooks.php:1048
+msgid "Expiring Date:"
+msgstr ""
+
+#: inc/hooks.php:1049
+msgid "Please visit your admin dashboard to approve it - "
+msgstr ""
+
+#: inc/hooks.php:1053
+msgid "New Deal Submited"
+msgstr ""
+
+#: inc/hooks.php:1091
+msgid "Profile"
+msgstr ""
+
+#: inc/hooks.php:1109 inc/includes/class-wc-submitted-deals-tab.php:66
+#: inc/includes/class-wc-submitted-deals-tab.php:86
+msgid "Submitted Deals"
+msgstr ""
+
+#: inc/hooks.php:1114
+msgid "Submit"
+msgstr ""
+
+#: inc/hooks.php:1116
+msgid "Log Out"
+msgstr ""
+
+#: inc/hooks.php:1118
+msgid "Log In / Register"
+msgstr ""
+
+#: inc/hooks.php:1120
+msgid "Log In"
+msgstr ""
+
+#: inc/hooks.php:1159
+msgid "Error: Company Name is required!"
+msgstr ""
+
+#: inc/hooks.php:1187
+msgid ""
+"Error: A user with the same company name already exists. Please add some "
+"additional information to your company name (town or city perhaps) to make "
+"it unique."
+msgstr ""
+
+#: inc/hooks.php:1268
+msgid ""
+"Google recently changed the terms of use of its Google Maps APIs. Please go "
+"to the theme options panel and write you Google API Key in the Deals of the "
+"panel tab. Otherwise the City and Country geolocation will not work as it "
+"should."
+msgstr ""
+
+#: inc/hooks.php:1269 inc/hooks.php:1329
+msgid "Dismiss"
+msgstr ""
+
+#: inc/hooks.php:1325
+msgid "Google API Key Error!"
+msgstr ""
+
+#: inc/hooks.php:1327
+msgid "Please see here for more information - "
+msgstr ""
+
+#: inc/hooks.php:1327
+msgid "Google API FAQ"
+msgstr ""
+
+#: inc/hooks.php:1458 inc/includes/class-wc-user-company-tab.php:65
+#: inc/includes/class-wc-user-company-tab.php:85
+msgid "My Company"
+msgstr ""
+
+#: inc/hooks.php:1461
+msgid "The company information fields."
+msgstr ""
+
+#: inc/hooks.php:1466
+msgid "Edit"
+msgstr ""
+
+#: inc/hooks.php:1525
+msgid "Register as a company"
+msgstr ""
+
+#: inc/hooks.php:1568 inc/hooks.php:1594
+msgid "View your shopping cart"
+msgstr ""
+
+#: inc/includes/abstract-wc-couponhut-deal.php:761
+msgid "Invalid catalog visibility option."
+msgstr ""
+
+#: inc/includes/abstract-wc-couponhut-deal.php:798
+msgid "Invalid or duplicated SKU."
+msgstr ""
+
+#: inc/includes/abstract-wc-couponhut-deal.php:882
+msgid "Invalid product tax status."
+msgstr ""
+
+#: inc/includes/abstract-wc-couponhut-deal.php:1163
+#, php-format
+msgid ""
+"The downloadable file %1$s cannot be used as it does not have an allowed "
+"file type. Allowed types include: %2$s"
+msgstr ""
+
+#: inc/includes/abstract-wc-couponhut-deal.php:1171
+#, php-format
+msgid ""
+"The downloadable file %s cannot be used as it does not exist on the server."
+msgstr ""
+
+#: inc/includes/abstract-wc-couponhut-deal.php:1711
+#: inc/includes/class-wc-couponhut-deal-simple.php:61
+#: partials/content-single-deal-box.php:68
+msgid "Add to cart"
+msgstr ""
+
+#: inc/includes/abstract-wc-couponhut-deal.php:1720
+#: inc/includes/class-wc-couponhut-deal-simple.php:61
+msgid "Read more"
+msgstr ""
+
+#: inc/includes/abstract-wc-couponhut-deal.php:1872
+msgid "Out of stock"
+msgstr ""
+
+#: inc/includes/abstract-wc-couponhut-deal.php:1874
+#: woocommerce/cart/cart.php:92
+msgid "Available on backorder"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:6 single-deal.php:266
+msgid "Company"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:10
+msgid "Company Logo"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:34
+msgid "Company Website"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:75
+msgid "Contact"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:79
+msgid "Image Title"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:100
+msgid "Image or Map Location"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:113
+msgid "Map Location"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:124
+msgid "Upload Image"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:156
+msgid "Image Text"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:182
+#: inc/includes/acf-fields/acf-fields.php:964 single-deal.php:291
+msgid "Location"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:228
+msgid "Deal Category"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:267
+msgid "Show Top Search Header"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:271
+msgid "Search Header"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:274
+msgid "Display search block at the top of the page."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:320
+msgid "Single Deal"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:324
+msgid "Deal Type"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:336
+msgid "Discount"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:337
+msgid "Coupon"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:348
+msgid "Limited Deal (*for purchasable deals only)"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:351
+msgid ""
+"Important! Works only for deals with shown prices and entered WooCommerce "
+"price."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:372
+msgid "Deals Available"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:375
+msgid "Enter the number of available deals that can be redeemed."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:401
+msgid "Printable Coupon"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:420
+#: inc/includes/acf-fields/acf-fields.php:498
+#: inc/includes/acf-fields/acf-fields.php:906
+msgid "Enable"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:425
+msgid "Print Image"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:457
+msgid "Deal Summary"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:460
+msgid "The text that appears on the side in the single deal page."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:478
+msgid "Redirect to offer URL"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:481
+msgid ""
+"If it's enabled, the user will be redirected to the web site of the offer "
+"code."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:509
+msgid "Image Type"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:522
+#: inc/includes/acf-fields/acf-fields.php:597
+msgid "Slider"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:565
+msgid "Header Image"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:568
+msgid ""
+"Upload image if you want the single deal page to have its own header "
+"different from the thumbnail.."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:658
+msgid "Coupon Code"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:692
+msgid "Discount Value"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:713
+msgid "URL"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:716
+msgid "Entering link will redirect the user on deal redeeming."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:732
+msgid "Expiring Date"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:735
+msgid "The deal will expire exactly when the selected day begins."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:749
+msgid "Show Pricing Fields"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:765
+msgid "Old Price"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:792
+msgid "New Price"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:819
+msgid "WooCommerce Sale Price"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:822
+msgid ""
+"This is the price that will be used for the WooCommerce Pricing. Only "
+"numbers must be placed here. The currency sign must not be entered. Make "
+"sure you have selected the correct currency in WooCommerce > Settings > "
+"General. If WooCommerce Sale Price is left blank or WooCommerce is disabled, "
+"the deal will not use a payment system."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:850
+#: inc/includes/class-wc-user-company-tab.php:154
+msgid "Save"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:879
+msgid "Virtual Deal"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:890
+msgid ""
+"If this is enabled, no shipping information will be entered for this deal."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:895
+msgid "Registered Members Only"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:898
+msgid "Important! Enable WooCommerce plugin if this is set."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:911
+msgid "Show Location"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:935
+msgid "Map Zoom"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:938
+msgid "Enter map zoom level from 1 to 20."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:967
+msgid ""
+"<strong>Receiving map error?</strong>\tGoogle have changed their Google Maps "
+"policies and now an API Key has to be present for Google Maps to work. "
+"Please go to Appearance > Theme Settings > Deals and fill the \"Google API "
+"Key\" field."
+msgstr ""
+
+#: inc/includes/acf-fonticonpicker/fonticonpicker-v5.php:18
+msgid "Icon Picker"
+msgstr ""
+
+#: inc/includes/acf-fonticonpicker/fonticonpicker-v5.php:19
+msgid "jQuery"
+msgstr ""
+
+#: inc/includes/acf-fonticonpicker/fonticonpicker-v5.php:79
+msgid "No icons found"
+msgstr ""
+
+#: inc/includes/builder-templates/full.php:4
+msgid "Front Page"
+msgstr ""
+
+#: inc/includes/builder-templates/full.php:5
+msgid "Front Page - Image"
+msgstr ""
+
+#: inc/includes/class-wc-deal-data-store-cpt.php:98
+msgid "Deal"
+msgstr ""
+
+#: inc/includes/class-wc-deal-data-store-cpt.php:137
+msgid "Invalid deal."
+msgstr ""
+
+#: inc/includes/class-wc-order-item-deal.php:66
+msgid "Invalid tax class"
+msgstr ""
+
+#: inc/includes/class-wc-order-item-deal.php:79
+msgid "Invalid product ID"
+msgstr ""
+
+#: inc/includes/class-wc-order-item-deal.php:92
+msgid "Invalid variation ID"
+msgstr ""
+
+#: inc/includes/class-wc-order-item-deal.php:203
+msgid "Backordered"
+msgstr ""
+
+#: inc/includes/class-wc-submitted-deals-tab.php:151
+msgid "Your Submitted Deals"
+msgstr ""
+
+#: inc/includes/class-wc-submitted-deals-tab.php:155
+msgid ""
+"Your Company Name is empty. Please enter a Company Name in your profile page"
+msgstr ""
+
+#: inc/includes/class-wc-user-company-tab.php:103
+msgid "Your Company Details"
+msgstr ""
+
+#: inc/includes/class-wc-user-company-tab.php:109
+msgid "Company Name"
+msgstr ""
+
+#: inc/includes/class-wc-user-company-tab.php:134
+msgid "Company Description"
+msgstr ""
+
+#: inc/includes/option-types/icon-select/class-fw-option-type-icon-select.php:89
+msgid "Error when reading file"
+msgstr ""
+
+#: inc/includes/subsolar-widget-fields/subsolar-widget-fields.php:62
+msgid "Remove Image"
+msgstr ""
+
+#: inc/includes/subsolar-widget-fields/subsolar-widget-fields.php:70
+msgid "Select..."
+msgstr ""
+
+#: inc/menus.php:7
+msgid "Top navigation menu"
+msgstr ""
+
+#: inc/static.php:274
+msgid "Expired!"
+msgstr ""
+
+#: inc/static.php:275
+msgid "day"
+msgstr ""
+
+#: inc/static.php:276
+msgid "days"
+msgstr ""
+
+#: inc/static.php:277
+msgid "hour"
+msgstr ""
+
+#: inc/static.php:278
+msgid "hours"
+msgstr ""
+
+#: inc/static.php:279
+msgid "minute"
+msgstr ""
+
+#: inc/static.php:280
+msgid "minutes"
+msgstr ""
+
+#: inc/static.php:281
+msgid "Deal Redeemed"
+msgstr ""
+
+#: inc/static.php:282
+msgid "Loading deals..."
+msgstr ""
+
+#: inc/static.php:283 loop/loop-deals.php:233
+msgid "No deals found."
+msgstr ""
+
+#: inc/widgets/daily-deal/class-widget-daily-deal.php:10
+msgid "This widget adds selected deal as Daily Deal."
+msgstr ""
+
+#: inc/widgets/daily-deal/class-widget-daily-deal.php:11
+msgid "[CouponHut] Daily Deal"
+msgstr ""
+
+#: inc/widgets/daily-deal/class-widget-daily-deal.php:43
+#: loop/content-deal.php:293 partials/content-deal-slide.php:88
+#: partials/content-single-deal-box.php:7
+msgid "Expires in"
+msgstr ""
+
+#: inc/widgets/daily-deal/class-widget-daily-deal.php:71
+#: inc/widgets/daily-deal/class-widget-daily-deal.php:88
+msgid "Daily Deal"
+msgstr ""
+
+#: inc/widgets/deal-categories/class-widget-deal-categories.php:10
+msgid "This widget adds deal categories to your site."
+msgstr ""
+
+#: inc/widgets/deal-categories/class-widget-deal-categories.php:11
+msgid "[CouponHut] Deal Categories"
+msgstr ""
+
+#: inc/widgets/deal-categories/class-widget-deal-categories.php:94
+#: inc/widgets/deal-companies/class-widget-deal-companies.php:94
+msgid "Number of Items"
+msgstr ""
+
+#: inc/widgets/deal-companies/class-widget-deal-companies.php:10
+msgid "This widget adds deal companies to your site."
+msgstr ""
+
+#: inc/widgets/deal-companies/class-widget-deal-companies.php:11
+msgid "[CouponHut] Deal Companies"
+msgstr ""
+
+#: inc/widgets/deal-companies/class-widget-deal-companies.php:81
+msgid "Deal Companies"
+msgstr ""
+
+#: inc/widgets/deal-filter/class-widget-deal-filter.php:10
+msgid "This widget adds deal filter tools to your site."
+msgstr ""
+
+#: inc/widgets/deal-filter/class-widget-deal-filter.php:11
+msgid "[CouponHut] Deal Filter"
+msgstr ""
+
+#: inc/widgets/deal-filter/class-widget-deal-filter.php:74
+msgid "Days"
+msgstr ""
+
+#: inc/widgets/deal-filter/class-widget-deal-filter.php:137
+msgid "Companies"
+msgstr ""
+
+#: inc/widgets/deal-filter/class-widget-deal-filter.php:174
+#: partials/content-header-screen.php:95
+msgid "Countries"
+msgstr ""
+
+#: inc/widgets/deal-filter/class-widget-deal-filter.php:206
+#: inc/widgets/deal-filter/class-widget-deal-filter.php:227
+#: partials/content-header-screen.php:128
+#: partials/content-header-screen.php:152
+msgid "Cities"
+msgstr ""
+
+#: inc/widgets/deal-filter/class-widget-deal-filter.php:251
+msgid "Filter Deals"
+msgstr ""
+
+#: inc/widgets/deal-filter/class-widget-deal-filter.php:294
+msgid "Start Day Limit"
+msgstr ""
+
+#: inc/widgets/deal-filter/class-widget-deal-filter.php:298
+msgid "End Day Limit"
+msgstr ""
+
+#: inc/widgets/deal-search/class-widget-deal-search.php:10
+msgid "This widget adds deal search field to your site."
+msgstr ""
+
+#: inc/widgets/deal-search/class-widget-deal-search.php:11
+msgid "[CouponHut] Deal Search"
+msgstr ""
+
+#: inc/widgets/deal-search/class-widget-deal-search.php:31
+msgid "Search Deals"
+msgstr ""
+
+#: inc/widgets/image/class-widget-image.php:10
+msgid "This widget adds an image your site."
+msgstr ""
+
+#: inc/widgets/image/class-widget-image.php:11
+msgid "[CouponHut] Image"
+msgstr ""
+
+#: inc/widgets/mailchimp/class-widget-mailchimp.php:10
+msgid "Subscription form with Mailchimp integration."
+msgstr ""
+
+#: inc/widgets/mailchimp/class-widget-mailchimp.php:11
+msgid "[CouponHut] Mailchimp"
+msgstr ""
+
+#: inc/widgets/mailchimp/class-widget-mailchimp.php:21
+msgid "You have not entered an email address."
+msgstr ""
+
+#: inc/widgets/mailchimp/class-widget-mailchimp.php:22
+msgid "You have entered an invalid email address."
+msgstr ""
+
+#: inc/widgets/mailchimp/class-widget-mailchimp.php:23
+msgid "Adding your email address..."
+msgstr ""
+
+#: inc/widgets/mailchimp/class-widget-mailchimp.php:41
+msgid "Your e-mail address"
+msgstr ""
+
+#: inc/widgets/mailchimp/class-widget-mailchimp.php:69
+msgid "Newsletter"
+msgstr ""
+
+#: inc/widgets/mailchimp/class-widget-mailchimp.php:70
+msgid "Make sure you don't miss anything!"
+msgstr ""
+
+#: inc/widgets/mailchimp/class-widget-mailchimp.php:71
+msgid "Subscribe"
+msgstr ""
+
+#: inc/widgets/mailchimp/class-widget-mailchimp.php:89
+msgid "Button Text"
+msgstr ""
+
+#: inc/widgets/mailchimp/class-widget-mailchimp.php:94
+msgid "Subscription Text"
+msgstr ""
+
+#: inc/widgets/recent-posts/class-widget-recent-posts.php:10
+msgid "Your site's most recent Posts."
+msgstr ""
+
+#: inc/widgets/recent-posts/class-widget-recent-posts.php:11
+msgid "[CouponHut] Recent Posts"
+msgstr ""
+
+#: inc/widgets/recent-posts/class-widget-recent-posts.php:81
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widgets/recent-posts/class-widget-recent-posts.php:93
+msgid "Number of Posts"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:6
+msgid "Add social links to your site."
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:8
+msgid "[CouponHut] Social"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:52
+msgid "Follow Us"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:56
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:57
+msgid "Google URL"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:58
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:59
+msgid "Vimeo URL"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:60
+msgid "Linkedin URL"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:61
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:62
+msgid "Pinterest URL"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:63
+msgid "Youtube URL"
+msgstr ""
+
+#: inc/widgets/twitter/class-widget-twitter.php:10
+msgid "Display your latest tweets."
+msgstr ""
+
+#: inc/widgets/twitter/class-widget-twitter.php:11
+msgid "[CouponHut] Twitter"
+msgstr ""
+
+#: inc/widgets/twitter/class-widget-twitter.php:96
+msgid "Username:"
+msgstr ""
+
+#: inc/widgets/twitter/class-widget-twitter.php:102
+msgid "Number of tweets to show:"
+msgstr ""
+
+#: loop/content-deal.php:59 single-deal.php:86
+msgid "Code is copied"
+msgstr ""
+
+#: loop/content-deal.php:67 loop/content-deal.php:85
+#: partials/content-single-deal-box.php:79 single-deal.php:94
+#: single-deal.php:112 woocommerce/order/order-details.php:95
+msgid "or download as image"
+msgstr ""
+
+#: loop/content-deal.php:73 loop/content-deal.php:91 single-deal.php:100
+#: single-deal.php:118
+msgid "Visit Deal"
+msgstr ""
+
+#: loop/content-deal.php:77 single-deal.php:104
+msgid "Please copy the following code."
+msgstr ""
+
+#: loop/content-deal.php:116
+msgid "Edit Deal"
+msgstr ""
+
+#: loop/content-deal.php:144
+msgid "View Deal"
+msgstr ""
+
+#: loop/content-deal.php:146
+msgid "View Coupon"
+msgstr ""
+
+#: loop/content-deal.php:282 partials/content-single-deal-box.php:34
+msgid "You save:"
+msgstr ""
+
+#: loop/content-post.php:45
+msgid "0 Comments"
+msgstr ""
+
+#: loop/content-post.php:45
+msgid "1 Comment"
+msgstr ""
+
+#: loop/content-post.php:45
+msgid "% Comments"
+msgstr ""
+
+#: loop/content-post.php:60
+msgid "Pages:"
+msgstr ""
+
+#: loop/loop-deals.php:99
+msgid ""
+"It seems like your hosting provider isn't supporting PHP version at least "
+"5.3. Please contact him or choose another provider as the date functions "
+"will not work correctly on your current configuration."
+msgstr ""
+
+#: page.php:23 template-contact.php:43 template-front-page.php:15
+#: template-full-width.php:24 template-sidebar.php:40
+msgid "Sorry, no posts found."
+msgstr ""
+
+#: partials/content-header-screen.php:23
+msgid "I'm searching for"
+msgstr ""
+
+#: partials/content-header-screen.php:24
+msgid "Deals & Coupons"
+msgstr ""
+
+#: partials/content-header-screen.php:25
+msgid "in"
+msgstr ""
+
+#: partials/content-header-screen.php:38 template-submit-deal.php:119
+msgid "Category"
+msgstr ""
+
+#: partials/content-header-screen.php:73
+msgid "in country"
+msgstr ""
+
+#: partials/content-header-screen.php:117
+msgid "and city"
+msgstr ""
+
+#: partials/content-header-screen.php:141
+msgid "city"
+msgstr ""
+
+#: partials/content-meta-rating.php:43
+msgid "review"
+msgstr ""
+
+#: partials/content-meta-rating.php:43
+msgid "reviews"
+msgstr ""
+
+#: partials/content-single-deal-box.php:93
+msgid "Deal Expired"
+msgstr ""
+
+#: partials/content-single-deal-box.php:97
+msgid "Deal Not Available"
+msgstr ""
+
+#: partials/content-single-deal-box.php:117
+msgid "Sorry, all deals are taken."
+msgstr ""
+
+#: partials/content-sort-deals.php:8
+msgid "Most appreciated"
+msgstr ""
+
+#: partials/content-sort-deals.php:9
+msgid "Expiring soon"
+msgstr ""
+
+#: search.php:14
+msgid "Search Results For: "
+msgstr ""
+
+#: search.php:29
+msgid "No posts found"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search Here"
+msgstr ""
+
+#: single-deal.php:133
+msgid "This is one of your deals - "
+msgstr ""
+
+#: single-deal.php:139
+msgid "Editing deal: "
+msgstr ""
+
+#: single-deal.php:218
+msgid "Sale"
+msgstr ""
+
+#: single-deal.php:218
+msgid "Sales"
+msgstr ""
+
+#: single-deal.php:223
+msgid "Times Redeemed"
+msgstr ""
+
+#: single-deal.php:231 woocommerce/myaccount/orders.php:75
+msgid "View"
+msgstr ""
+
+#: single-deal.php:231
+msgid "Views"
+msgstr ""
+
+#: single-deal.php:301
+msgid "Visit Location"
+msgstr ""
+
+#: taxonomy.php:59
+msgid "deal"
+msgstr ""
+
+#: taxonomy.php:59
+msgid "deals"
+msgstr ""
+
+#: taxonomy.php:61
+msgid "Browsing"
+msgstr ""
+
+#: taxonomy.php:99
+msgid "Visit Website"
+msgstr ""
+
+#: taxonomy.php:131
+msgid "Currently there are no deals in category "
+msgstr ""
+
+#: template-submit-deal.php:25
+msgid "Not Authorized"
+msgstr ""
+
+#: template-submit-deal.php:27
+msgid "You must be registered as a company to submit a deal."
+msgstr ""
+
+#: template-submit-deal.php:55
+msgid "New Deal"
+msgstr ""
+
+#: template-submit-deal.php:71 template-submit-deal.php:83
+msgid "Error! Please enter your Company Name in "
+msgstr ""
+
+#: template-submit-deal.php:123
+msgid "Select deal category"
+msgstr ""
+
+#: template-submit-deal.php:157
+msgid "Create"
+msgstr ""
+
+#: template-submit-deal.php:158
+msgid ""
+"Your deal was submitted successfully! Please wait for it to be approved."
+msgstr ""
+
+#: template-submit-deal.php:163
+msgid "Please isntall the Advanced Custom Fields PRO plugin."
+msgstr ""
+
+#: template-submit-deal.php:169
+msgid ""
+"Please enter an email in the \"New Deal Email\" field in Appearance > Theme "
+"Settings > Deals."
+msgstr ""
+
+#: template-submit-deal.php:174
+msgid "No administrator email found. Please contact the owner of the website."
+msgstr ""
+
+#: template-submit-deal.php:197
+msgid ""
+"Please Allow Deal Submit Without Registration from Theme Settings > Deals or "
+"enable WooCommerce so that the theme can have registration functionality."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:27
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:39
+msgid "Return To Deals"
+msgstr ""
+
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:79
+#: woocommerce/order/order-details.php:124
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:97
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:37 woocommerce/cart/cart.php:103
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:38 woocommerce/cart/cart.php:120
+#: woocommerce/order/order-details.php:125
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:59
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:138
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:138
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:138
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:143
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:28
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:57
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:51
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:63
+#, php-format
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/orders.php:71
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:79
+msgid "Cancel"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:110
+msgid "Previous"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:114
+msgid "Next"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:121
+msgid "No order has been made yet."
+msgstr ""
+
+#: woocommerce/order/order-details.php:31
+msgid "Order Details"
+msgstr ""
+
+#: woocommerce/order/order-details.php:101
+msgid "Your voucher code is:"
+msgstr ""
+
+#: woocommerce/order/order-details.php:107
+msgid "Go to the deal website."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "CouponHut"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://subsolardesigns.com/couponhutwp"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Coupons & Deals WordPress Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Subsolar Designs"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://subsolardesigns.com/"
+msgstr ""

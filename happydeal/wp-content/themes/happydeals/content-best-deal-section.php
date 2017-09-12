@@ -1,0 +1,189 @@
+<section class="fw-main-row" style="margin-bottom: 100px;">
+		<div class="container">
+			<h1 class="section-title">BEST DEALS</h1>
+			<div class="section-title-block"></div>
+			<div class="latest-deals-wrapper grid-wrapper"> </div>
+		</div>
+
+
+			<div class="container" style="text-align: left; padding-left: 15px; padding-right: 15px;"> 
+
+					<ul style="list-style-type: none;
+							    margin: 0;
+							    padding: 0;
+							    vertical-align: middle;">
+
+							<div class="row">
+
+								<?php
+								$params = array('posts_per_page' => 8, 'post_type' => 'product');
+								$wc_query = new WP_Query($params);
+								?>
+								<?php if ($wc_query->have_posts()) : ?>
+								<?php while ($wc_query->have_posts()) :
+								$wc_query->the_post();
+                                                                $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'ssd_deal-thumb');
+                                                                $_product = wc_get_product(  $post->ID );   
+                                                                                                                                                                                                                         
+                                                                $oldPrice = $_product->get_regular_price();
+                                                                $newPrice = $_product->get_sale_price();
+                                                                $price =  $_product->get_price();
+                                                                
+                                                                $companies = get_the_terms( get_the_ID(), 'deal_company' );
+
+                                               
+                                                                                
+                                                                                 ?>
+		                        <div class="col-md-4 fade">
+
+										<!-- Image Thumbnail -->
+										 
+											<?php if ( has_post_thumbnail() ) : ?>
+
+											   <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"> </a>
+											     
+											      <div class="deal-thumb-image" class="img-responsive"> 
+
+														<div class="prices-bg" style="height: 100%; width: 100%;background-repeat: no-repeat;"> 
+
+   																				
+															   <div class="prices">
+															   
+
+															   	<?php if( $oldPrice == ''){
+
+															   		echo '<b><h2>P'.number_format($newPrice).'</h2></b>';
+															   		
+                                                                                                                                           }else{
+															   			    echo '<p><b>(from </b>'.get_woocommerce_currency_symbol().number_format($oldPrice).')</p>';
+															   				echo '<h1>'.get_woocommerce_currency_symbol().number_format($newPrice).'</h1>';
+
+															   		}
+															   		?> 
+
+
+
+															 
+
+															   </div>
+													</div>
+
+													<!-- Image -->
+
+																				      	<?php                                                                                                     
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+													if ( couponhut_get_field('image_type') == 'image') {
+														if ( couponhut_get_field('image') ) {
+													 			$image = couponhut_get_field('image');
+													 		}
+													} else {
+
+														if( couponhut_have_rows('slider') ) {
+
+															$img_num = 1;
+
+															while ( couponhut_have_rows('slider') ) {
+
+																the_row();
+																if ( $img_num == 1 && couponhut_get_sub_field('image') ) {
+																	$image = couponhut_get_sub_field('image');
+
+																}
+																$img_num++;
+
+														 	}
+
+														}
+
+													}
+													?>
+
+													<?php if( isset($image) ) : ?>
+														<img src="<?php echo esc_url( $image[0] );?>" alt="<?php echo $image['alt'] ? esc_attr( $image['alt'] ) : ''; ?>">
+													<?php endif; ?>
+
+
+													<!-- End Image --> 
+											      	  <div class="overlay" style=" background-image: url('hover.png');">
+													    <!-- <div class="text"><a href="<?php  // the_permalink(); ?>"><h2>View</h2></a></div> -->
+													    <div class="text2" style="display: inline-block;">
+														    <ul style="margin-top: 25px;">
+														    <li style="padding-left: 0;"><a href="<?php the_permalink(); ?>"><img src="/icon/search.png"></a>
+														    <li><a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>"><img src="/icon/share.png"></a></li> 
+														    <li><a href="<?php the_permalink(); ?>"><?php wpfp_link() ?></a></li>
+                                                                                                                    <li>
+														    <?php echo sprintf( '<a href="%s" rel="nofollow" data-product_id="%s" data-product_sku="%s" data-quantity="%s" class="button %s product_type_%s">%s</a>',
+														        esc_url( '/?add-to-cart='.$post->ID ),
+														        esc_attr( $post->ID ),
+														        '',
+														        esc_attr( '1' ),
+														        'add_to_cart_button ajax_add_to_cart',
+														        esc_attr( 'simple' ),
+														        '<img src="/icon/addtocart.png">'
+														    );
+														    ?>	
+                                                                                                                    </li>
+														    
+														   </ul> 
+														   
+													  </div>
+													  </div>
+
+											      </div>
+														   <!-- End Price -->
+													 
+
+											   
+											<?php endif; ?>
+                                                                                        <div class="product-desc-f"> 
+        										        <p class="mname"><?php  echo wp_kses_post($companies[0]->name); ?></b></p>
+                                                                                                   <!-- Get Title -->
+        										        <p><a href="<?php the_permalink();?>"><?php the_title(); ?></p>
+                                                                                                <div class="col-sm-8 nopadding">
+                                                                                                        	<!-- Rating -->    
+                                                                                                                <?php echo do_shortcode('[WPCR_SHOW POSTID="'.$post->ID.'" SHOWFORM="0" HIDEREVIEWS="1" HIDERESPONSE="1"]'); ?>
+                                                                                			<!--<div class="card-deal-meta-rating">
+                                                                                                		<div class="post-star-rating">
+                                                        								<i class="rating-star fa fa-star" data-post-id="<?php echo esc_attr($post->ID) ?>" data-rating="<?php echo esc_attr($rating_value); ?>"></i>
+                                                        								<i class="rating-star fa fa-star" data-post-id="<?php echo esc_attr($post->ID) ?>" data-rating="<?php echo esc_attr($rating_value); ?>"></i>
+                                                        								<i class="rating-star fa fa-star" data-post-id="<?php echo esc_attr($post->ID) ?>" data-rating="<?php echo esc_attr($rating_value); ?>"></i>
+                                                        								<i class="rating-star fa fa-star" data-post-id="<?php echo esc_attr($post->ID) ?>" data-rating="<?php echo esc_attr($rating_value); ?>"></i>
+                                                        								<i class="rating-star fa fa-star" data-post-id="<?php echo esc_attr($post->ID) ?>" data-rating="<?php echo esc_attr($rating_value); ?>"></i>
+                                                                                				</div>
+                                                                                           	</div>  -->
+                                                                                                </div>
+                                                                                                <div class="col-sm-4 nopadding" style="text-align: right;">
+                                                                                                     <!-- Stocks Let -->
+        											     <span class="stocks-left-f"> <?php echo  wp_kses_post(couponhut_get_field('deals_available'));  ?> LEFT</span>
+                                                                                                     <!-- Stocks Let End-->          
+                                                                                         	</div>
+                                                                                        </div>
+										<!-- Get Category -->
+                                                                                        
+                                                                                                                        
+    									                                      
+										
+		
+						
+							</div>
+									<?php endwhile; ?>
+									<?php wp_reset_postdata(); ?>
+									<?php else:  ?>
+									<p>
+									     <?php _e( 'No Products'); ?>
+									</p>
+
+
+
+									<?php endif; ?>
+
+						</ul>
+					</div>		
+
+
+
+					</div>
+
+		</div>
+	</section>

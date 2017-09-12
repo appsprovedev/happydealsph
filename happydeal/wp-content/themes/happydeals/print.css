@@ -1,0 +1,45 @@
+/* Print Style Sheet */
+@media print {
+
+body { background:white; color:black; margin:0; }
+
+.single-deal-wrapper {
+	display: block !important;
+	
+
+}
+
+button, .download-btn {
+	display: none !important;
+}
+
+.single-deal-content {
+	border: 1px solid;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.single-deal-content h1 {
+	font-size: 18px; 
+}
+
+.container {
+	margin: 10px;
+}
+
+.container .col-md-9 {
+	max-width: 650px;
+	float: left;
+}
+
+.container .col-md-3 {
+	max-width: 300px;
+	float: left;
+}
+
+footer {
+	display: none;
+}
+
+
+}

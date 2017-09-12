@@ -1,0 +1,51 @@
+
+.bravowp-woo-floatingcart-ajaxloader{
+        background-color: #fff;
+        display: block;
+        height: 100%;
+        left: 0;
+        opacity: 0.7;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+}
+
+.bravowp-woo-floatingcart-ajaxloader img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto; /* presto! */
+        z-index: 1000;
+        width:64px !important;
+        height: 64px !important;
+}
+
+
+#bravowp-woo-floatingcart .wp-post-image
+{
+        height:32px !important;
+        width:32px !important;
+}
+
+#bravowp-woo-floatingcart-bodypane div.quantity {
+	position: absolute;
+	padding: 0;
+	top: 20px;
+	width: 100%;
+}
+
+#bravowp-woo-floatingcart-bodypane div.quantity input {
+	color: #000;
+	padding: 0;
+	width: 40px;
+}
+
+#bravowp-woo-floatingcart-bodypane td.wc_quantity {
+	position: relative;
+	width: 50px;
+}
+
